@@ -1,0 +1,11 @@
+version: '3'
+services:
+  redpenuser:
+    build:
+      context: .
+    container_name: redpenuser
+    networks:
+      - nginxproxy_nginx_proxy
+networks:
+    nginxproxy_nginx_proxy:
+      external: true

@@ -1,0 +1,2458 @@
+User id: 9180  Mobile Model: Xiaomi Redmi Note 5 Pro  Report: java.lang.IllegalStateException: Fragment already added: MaterialDatePicker{7ee5471} (3f57d68d-a981-470b-9697-373da58cf7f0 tag=Material_Range)
+
+--------- Stack trace ---------
+
+    androidx.fragment.app.FragmentStore.addFragment(FragmentStore.java:91)
+    androidx.fragment.app.FragmentManager.addFragment(FragmentManager.java:1713)
+    androidx.fragment.app.BackStackRecord.executeOps(BackStackRecord.java:415)
+    androidx.fragment.app.FragmentManager.executeOps(FragmentManager.java:2404)
+    androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:2162)
+    androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:2100)
+    androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:2002)
+    androidx.fragment.app.FragmentManager$5.run(FragmentManager.java:524)
+    android.os.Handler.handleCallback(Handler.java:873)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:201)
+    android.app.ActivityThread.main(ActivityThread.java:6810)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:547)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:873)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 09:55:01
+User id: 9162  Mobile Model: Samsung SM-G965F  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:1050)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3635)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:2370)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2662)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2222)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:9123)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:999)
+    android.view.Choreographer.doCallbacks(Choreographer.java:797)
+    android.view.Choreographer.doFrame(Choreographer.java:732)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:984)
+    android.os.Handler.handleCallback(Handler.java:883)
+    android.os.Handler.dispatchMessage(Handler.java:100)
+    android.os.Looper.loop(Looper.java:237)
+    android.app.ActivityThread.main(ActivityThread.java:8167)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:496)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1100)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:18:29
+User id: 9162  Mobile Model: Samsung SM-G965F  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:1050)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3635)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:2370)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2662)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2222)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:9123)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:999)
+    android.view.Choreographer.doCallbacks(Choreographer.java:797)
+    android.view.Choreographer.doFrame(Choreographer.java:732)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:984)
+    android.os.Handler.handleCallback(Handler.java:883)
+    android.os.Handler.dispatchMessage(Handler.java:100)
+    android.os.Looper.loop(Looper.java:237)
+    android.app.ActivityThread.main(ActivityThread.java:8167)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:496)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1100)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:18:45
+User id: 9162  Mobile Model: Samsung SM-G965F  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:1050)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3635)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:2370)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2662)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2222)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:9123)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:999)
+    android.view.Choreographer.doCallbacks(Choreographer.java:797)
+    android.view.Choreographer.doFrame(Choreographer.java:732)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:984)
+    android.os.Handler.handleCallback(Handler.java:883)
+    android.os.Handler.dispatchMessage(Handler.java:100)
+    android.os.Looper.loop(Looper.java:237)
+    android.app.ActivityThread.main(ActivityThread.java:8167)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:496)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1100)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:19:08
+User id: 7919  Mobile Model: Xiaomi 2201116SI  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:829)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3771)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:2545)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2824)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2260)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8987)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1160)
+    android.view.Choreographer.doCallbacks(Choreographer.java:950)
+    android.view.Choreographer.doFrame(Choreographer.java:879)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1142)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:211)
+    android.os.Looper.loop(Looper.java:300)
+    android.app.ActivityThread.main(ActivityThread.java:8301)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:556)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1043)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:22:07
+User id: 7919  Mobile Model: Xiaomi 2201116SI  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:829)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3771)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:2545)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2824)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2260)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8987)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1160)
+    android.view.Choreographer.doCallbacks(Choreographer.java:950)
+    android.view.Choreographer.doFrame(Choreographer.java:879)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1142)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:211)
+    android.os.Looper.loop(Looper.java:300)
+    android.app.ActivityThread.main(ActivityThread.java:8301)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:556)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1043)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:22:41
+User id: 8990  Mobile Model: Samsung SM-M315F  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:197)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:197)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:197)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:1278)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:4541)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:3233)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:3538)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2924)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:10513)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1108)
+    android.view.Choreographer.doCallbacks(Choreographer.java:866)
+    android.view.Choreographer.doFrame(Choreographer.java:797)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1092)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:226)
+    android.os.Looper.loop(Looper.java:313)
+    android.app.ActivityThread.main(ActivityThread.java:8751)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1135)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:23:06
+User id: 8990  Mobile Model: Samsung SM-M315F  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:197)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:197)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:197)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:1278)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:4541)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:3233)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:3538)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2924)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:10513)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1108)
+    android.view.Choreographer.doCallbacks(Choreographer.java:866)
+    android.view.Choreographer.doFrame(Choreographer.java:797)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1092)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:226)
+    android.os.Looper.loop(Looper.java:313)
+    android.app.ActivityThread.main(ActivityThread.java:8751)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1135)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:23:23
+User id: 8990  Mobile Model: Samsung SM-M315F  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:197)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:197)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:197)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:1278)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:4541)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:3233)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:3538)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2924)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:10513)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1108)
+    android.view.Choreographer.doCallbacks(Choreographer.java:866)
+    android.view.Choreographer.doFrame(Choreographer.java:797)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1092)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:226)
+    android.os.Looper.loop(Looper.java:313)
+    android.app.ActivityThread.main(ActivityThread.java:8751)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1135)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:23:34
+User id: 8990  Mobile Model: Samsung SM-M315F  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:197)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:197)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7980)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:197)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:1278)
+    android.view.View.measure(View.java:27129)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:4541)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:3233)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:3538)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2924)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:10513)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1108)
+    android.view.Choreographer.doCallbacks(Choreographer.java:866)
+    android.view.Choreographer.doFrame(Choreographer.java:797)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1092)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:226)
+    android.os.Looper.loop(Looper.java:313)
+    android.app.ActivityThread.main(ActivityThread.java:8751)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1135)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:23:42
+User id: 7919  Mobile Model: Xiaomi 2201116SI  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:829)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3771)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:2545)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2824)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2260)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8987)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1160)
+    android.view.Choreographer.doCallbacks(Choreographer.java:950)
+    android.view.Choreographer.doFrame(Choreographer.java:879)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1142)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:211)
+    android.os.Looper.loop(Looper.java:300)
+    android.app.ActivityThread.main(ActivityThread.java:8301)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:556)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1043)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:24:36
+User id: 3745  Mobile Model: OnePlus HD1901  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:776)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3713)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:2496)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2771)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2182)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8730)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1352)
+    android.view.Choreographer.doCallbacks(Choreographer.java:1149)
+    android.view.Choreographer.doFrame(Choreographer.java:1049)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1333)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:233)
+    android.app.ActivityThread.main(ActivityThread.java:8010)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:631)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:978)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:26:17
+User id: 3745  Mobile Model: OnePlus HD1901  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:776)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3713)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:2496)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2771)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2182)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8730)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1352)
+    android.view.Choreographer.doCallbacks(Choreographer.java:1149)
+    android.view.Choreographer.doFrame(Choreographer.java:1049)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1333)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:233)
+    android.app.ActivityThread.main(ActivityThread.java:8010)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:631)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:978)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:28:45
+User id: 3745  Mobile Model: OnePlus HD1901  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:776)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3713)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:2496)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2771)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2182)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8730)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1352)
+    android.view.Choreographer.doCallbacks(Choreographer.java:1149)
+    android.view.Choreographer.doFrame(Choreographer.java:1049)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1333)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:233)
+    android.app.ActivityThread.main(ActivityThread.java:8010)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:631)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:978)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:28:50
+User id: 3745  Mobile Model: OnePlus HD1901  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:776)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3713)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:2496)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2771)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2182)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8730)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1352)
+    android.view.Choreographer.doCallbacks(Choreographer.java:1149)
+    android.view.Choreographer.doFrame(Choreographer.java:1049)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1333)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:233)
+    android.app.ActivityThread.main(ActivityThread.java:8010)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:631)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:978)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:29:24
+User id: 3745  Mobile Model: OnePlus HD1901  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6987)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:776)
+    android.view.View.measure(View.java:25671)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3713)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:2496)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2771)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2182)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8730)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1352)
+    android.view.Choreographer.doCallbacks(Choreographer.java:1149)
+    android.view.Choreographer.doFrame(Choreographer.java:1049)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1333)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:233)
+    android.app.ActivityThread.main(ActivityThread.java:8010)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:631)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:978)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:29:34
+User id: 6164  Mobile Model: Samsung SM-A528B  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:27709)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7352)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27709)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7352)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27709)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:27709)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7352)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27709)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7352)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:27709)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7352)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27709)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7352)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:27709)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7352)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:27709)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7352)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:1366)
+    android.view.View.measure(View.java:27709)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:4711)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:3301)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:3607)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2991)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:10665)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1301)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1309)
+    android.view.Choreographer.doCallbacks(Choreographer.java:923)
+    android.view.Choreographer.doFrame(Choreographer.java:852)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1283)
+    android.os.Handler.handleCallback(Handler.java:942)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:226)
+    android.os.Looper.loop(Looper.java:313)
+    android.app.ActivityThread.main(ActivityThread.java:8741)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:30:49
+User id: 9162  Mobile Model: Samsung SM-G965F  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7845)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:1050)
+    android.view.View.measure(View.java:26411)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3635)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:2370)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2662)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2222)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:9123)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:999)
+    android.view.Choreographer.doCallbacks(Choreographer.java:797)
+    android.view.Choreographer.doFrame(Choreographer.java:732)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:984)
+    android.os.Handler.handleCallback(Handler.java:883)
+    android.os.Handler.dispatchMessage(Handler.java:100)
+    android.os.Looper.loop(Looper.java:237)
+    android.app.ActivityThread.main(ActivityThread.java:8167)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:496)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1100)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-10 17:32:19
+User id: 3969  Mobile Model: Xiaomi 2201116TI  Report: java.lang.IllegalStateException: Fragment HomeFragment{8a1c450} (eaf96ae4-8b9f-4d58-9264-b767670414fd) not attached to an activity.
+
+--------- Stack trace ---------
+
+    androidx.fragment.app.Fragment.requireActivity(Fragment.java:928)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.getHome(HomeFragment.java:545)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.access$700(HomeFragment.java:136)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment$20.run(HomeFragment.java:1128)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:211)
+    android.os.Looper.loop(Looper.java:300)
+    android.app.ActivityThread.main(ActivityThread.java:8282)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:576)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-11 10:10:45
+User id: 1854  Mobile Model: Vivo V2055  Report: java.lang.IllegalStateException: Fragment HomeFragment{9720b36} (2e003cfc-68e7-4f5b-92a2-24c446924f3e) not attached to an activity.
+
+--------- Stack trace ---------
+
+    androidx.fragment.app.Fragment.requireActivity(Fragment.java:928)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.getHome(HomeFragment.java:545)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.access$700(HomeFragment.java:136)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment$20.run(HomeFragment.java:1128)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:233)
+    android.os.Looper.loop(Looper.java:334)
+    android.app.ActivityThread.main(ActivityThread.java:8333)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:582)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1065)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-11 14:50:25
+User id: 7919  Mobile Model: Xiaomi 2201116SI  Report: java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.SubCategoryActivity.SubCategoryActivity$MyPagerAdapter.getItem(SubCategoryActivity.java:347)
+    androidx.fragment.app.FragmentPagerAdapter.instantiateItem(FragmentPagerAdapter.java:174)
+    androidx.viewpager.widget.ViewPager.addNewItem(ViewPager.java:1010)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1158)
+    androidx.viewpager.widget.ViewPager.populate(ViewPager.java:1092)
+    androidx.viewpager.widget.ViewPager.onMeasure(ViewPager.java:1622)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout.onMeasure(SwipeRefreshLayout.java:641)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7020)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:829)
+    android.view.View.measure(View.java:26198)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3771)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:2545)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2824)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2260)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8987)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1160)
+    android.view.Choreographer.doCallbacks(Choreographer.java:950)
+    android.view.Choreographer.doFrame(Choreographer.java:879)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1142)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:211)
+    android.os.Looper.loop(Looper.java:300)
+    android.app.ActivityThread.main(ActivityThread.java:8301)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:556)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1043)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-15 11:25:37
+User id: 6093  Mobile Model: OPPO CPH2325  Report: java.lang.IllegalStateException: Fragment HomeFragment{58b3c5c} (7ee6fca4-520b-4be6-bc1f-5c689395d920) not attached to an activity.
+
+--------- Stack trace ---------
+
+    androidx.fragment.app.Fragment.requireActivity(Fragment.java:928)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.getHome(HomeFragment.java:545)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.access$700(HomeFragment.java:136)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment$20.run(HomeFragment.java:1128)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:233)
+    android.os.Looper.loop(Looper.java:344)
+    android.app.ActivityThread.main(ActivityThread.java:8248)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:589)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1071)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-15 16:44:10
+User id: 8578  Mobile Model: Xiaomi Redmi K20 Pro  Report: java.lang.IllegalStateException: Fragment HomeFragment{8bc4542} (f535a713-4f17-4fcb-9c86-a58f0f6b21f6) not attached to an activity.
+
+--------- Stack trace ---------
+
+    androidx.fragment.app.Fragment.requireActivity(Fragment.java:928)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.getHome(HomeFragment.java:545)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.access$700(HomeFragment.java:136)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment$20.run(HomeFragment.java:1128)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:236)
+    android.app.ActivityThread.main(ActivityThread.java:8061)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:656)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:967)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-18 10:56:14
+User id: 9217  Mobile Model: OnePlus LE2101  Report: java.lang.SecurityException: my location requires permission ACCESS_FINE_LOCATION or ACCESS_COARSE_LOCATION
+
+--------- Stack trace ---------
+
+    com.google.maps.api.android.lib6.impl.bk.J(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):10)
+    com.google.android.gms.maps.internal.i.ba(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):172)
+    fd.onTransact(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):4)
+    android.os.Binder.transact(Binder.java:1084)
+    com.google.android.gms.internal.maps.zza.zzc(com.google.android.gms:play-services-maps@@18.0.0:2)
+    com.google.android.gms.maps.internal.zzg.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:3)
+    com.google.android.gms.maps.GoogleMap.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.shrewd.vegroute.locationpick.LocationGetActivity.onMapReady(LocationGetActivity.java:346)
+    com.google.android.gms.maps.zzac.zzb(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.google.android.gms.maps.internal.zzaq.zza(com.google.android.gms:play-services-maps@@18.0.0:5)
+    com.google.android.gms.internal.maps.zzb.onTransact(com.google.android.gms:play-services-maps@@18.0.0:3)
+    android.os.Binder.transact(Binder.java:1084)
+    fc.c(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):2)
+    com.google.maps.api.android.lib6.impl.bg.run(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):1)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:233)
+    android.os.Looper.loop(Looper.java:344)
+    android.app.ActivityThread.main(ActivityThread.java:8212)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:584)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1034)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-19 11:42:34
+User id: 9217  Mobile Model: OnePlus LE2101  Report: java.lang.SecurityException: my location requires permission ACCESS_FINE_LOCATION or ACCESS_COARSE_LOCATION
+
+--------- Stack trace ---------
+
+    com.google.maps.api.android.lib6.impl.bk.J(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):10)
+    com.google.android.gms.maps.internal.i.ba(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):172)
+    fd.onTransact(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):4)
+    android.os.Binder.transact(Binder.java:1084)
+    com.google.android.gms.internal.maps.zza.zzc(com.google.android.gms:play-services-maps@@18.0.0:2)
+    com.google.android.gms.maps.internal.zzg.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:3)
+    com.google.android.gms.maps.GoogleMap.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.shrewd.vegroute.locationpick.LocationGetActivity.onMapReady(LocationGetActivity.java:346)
+    com.google.android.gms.maps.zzac.zzb(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.google.android.gms.maps.internal.zzaq.zza(com.google.android.gms:play-services-maps@@18.0.0:5)
+    com.google.android.gms.internal.maps.zzb.onTransact(com.google.android.gms:play-services-maps@@18.0.0:3)
+    android.os.Binder.transact(Binder.java:1084)
+    fc.c(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):2)
+    com.google.maps.api.android.lib6.impl.bg.run(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):1)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:233)
+    android.os.Looper.loop(Looper.java:344)
+    android.app.ActivityThread.main(ActivityThread.java:8212)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:584)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1034)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-19 11:42:47
+User id: 9217  Mobile Model: OnePlus LE2101  Report: java.lang.SecurityException: my location requires permission ACCESS_FINE_LOCATION or ACCESS_COARSE_LOCATION
+
+--------- Stack trace ---------
+
+    com.google.maps.api.android.lib6.impl.bk.J(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):10)
+    com.google.android.gms.maps.internal.i.ba(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):172)
+    fd.onTransact(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):4)
+    android.os.Binder.transact(Binder.java:1084)
+    com.google.android.gms.internal.maps.zza.zzc(com.google.android.gms:play-services-maps@@18.0.0:2)
+    com.google.android.gms.maps.internal.zzg.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:3)
+    com.google.android.gms.maps.GoogleMap.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.shrewd.vegroute.locationpick.LocationGetActivity.onMapReady(LocationGetActivity.java:346)
+    com.google.android.gms.maps.zzac.zzb(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.google.android.gms.maps.internal.zzaq.zza(com.google.android.gms:play-services-maps@@18.0.0:5)
+    com.google.android.gms.internal.maps.zzb.onTransact(com.google.android.gms:play-services-maps@@18.0.0:3)
+    android.os.Binder.transact(Binder.java:1084)
+    fc.c(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):2)
+    com.google.maps.api.android.lib6.impl.bg.run(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):1)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:233)
+    android.os.Looper.loop(Looper.java:344)
+    android.app.ActivityThread.main(ActivityThread.java:8212)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:584)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1034)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-19 11:42:59
+User id: 9217  Mobile Model: OnePlus LE2101  Report: java.lang.SecurityException: my location requires permission ACCESS_FINE_LOCATION or ACCESS_COARSE_LOCATION
+
+--------- Stack trace ---------
+
+    com.google.maps.api.android.lib6.impl.bk.J(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):10)
+    com.google.android.gms.maps.internal.i.ba(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):172)
+    fd.onTransact(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):4)
+    android.os.Binder.transact(Binder.java:1084)
+    com.google.android.gms.internal.maps.zza.zzc(com.google.android.gms:play-services-maps@@18.0.0:2)
+    com.google.android.gms.maps.internal.zzg.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:3)
+    com.google.android.gms.maps.GoogleMap.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.shrewd.vegroute.locationpick.LocationGetActivity.onMapReady(LocationGetActivity.java:346)
+    com.google.android.gms.maps.zzac.zzb(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.google.android.gms.maps.internal.zzaq.zza(com.google.android.gms:play-services-maps@@18.0.0:5)
+    com.google.android.gms.internal.maps.zzb.onTransact(com.google.android.gms:play-services-maps@@18.0.0:3)
+    android.os.Binder.transact(Binder.java:1084)
+    fc.c(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):2)
+    com.google.maps.api.android.lib6.impl.bg.run(:com.google.android.gms.dynamite_mapsdynamite@225014045@22.50.14 (190408-0):1)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:233)
+    android.os.Looper.loop(Looper.java:344)
+    android.app.ActivityThread.main(ActivityThread.java:8212)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:584)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1034)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-19 11:43:09
+User id: 9186  Mobile Model: Vivo V2040  Report: java.lang.IllegalStateException: Fragment HomeFragment{a36b754} (40decf0d-eb0e-46ef-8094-66f7d3a289ef) not attached to an activity.
+
+--------- Stack trace ---------
+
+    androidx.fragment.app.Fragment.requireActivity(Fragment.java:928)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.getHome(HomeFragment.java:545)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.access$700(HomeFragment.java:136)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment$20.run(HomeFragment.java:1128)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:233)
+    android.os.Looper.loop(Looper.java:334)
+    android.app.ActivityThread.main(ActivityThread.java:8333)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:582)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1065)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-20 09:07:39
+User id: 9200  Mobile Model: OnePlus EB2101  Report: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.util.HashSet.contains(java.lang.Object)' on a null object reference
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.CartValuePage.CartActivity$ItemAdp.onBindViewHolder(CartActivity.java:1557)
+    com.shrewd.vegroute.ui.CartValuePage.CartActivity$ItemAdp.onBindViewHolder(CartActivity.java:1500)
+    androidx.recyclerview.widget.RecyclerView$Adapter.onBindViewHolder(RecyclerView.java:7065)
+    androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(RecyclerView.java:7107)
+    androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(RecyclerView.java:6012)
+    androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6279)
+    androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6118)
+    androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6114)
+    androidx.recyclerview.widget.LayoutState.next(LayoutState.java:98)
+    androidx.recyclerview.widget.StaggeredGridLayoutManager.fill(StaggeredGridLayoutManager.java:1607)
+    androidx.recyclerview.widget.StaggeredGridLayoutManager.onLayoutChildren(StaggeredGridLayoutManager.java:683)
+    androidx.recyclerview.widget.StaggeredGridLayoutManager.onLayoutChildren(StaggeredGridLayoutManager.java:605)
+    androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4134)
+    androidx.recyclerview.widget.RecyclerView.onMeasure(RecyclerView.java:3540)
+    android.view.View.measure(View.java:25988)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7073)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25988)
+    androidx.core.widget.NestedScrollView.measureChildWithMargins(NestedScrollView.java:1695)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.core.widget.NestedScrollView.onMeasure(NestedScrollView.java:604)
+    android.view.View.measure(View.java:25988)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7073)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25988)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7073)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25988)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7073)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25988)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7073)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:25988)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7073)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25988)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7073)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:25988)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7073)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25988)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7073)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:832)
+    android.view.View.measure(View.java:25988)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3854)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:2593)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2863)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2305)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:9133)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1232)
+    android.view.Choreographer.doCallbacks(Choreographer.java:1029)
+    android.view.Choreographer.doFrame(Choreographer.java:934)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1217)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:233)
+    android.os.Looper.loop(Looper.java:344)
+    android.app.ActivityThread.main(ActivityThread.java:8212)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:584)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1034)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-21 09:16:53
+User id: 9234  Mobile Model: HMD Global Nokia G10  Report: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.util.HashSet.contains(java.lang.Object)' on a null object reference
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.CartValuePage.CartActivity$ItemAdp.onBindViewHolder(CartActivity.java:1557)
+    com.shrewd.vegroute.ui.CartValuePage.CartActivity$ItemAdp.onBindViewHolder(CartActivity.java:1500)
+    androidx.recyclerview.widget.RecyclerView$Adapter.onBindViewHolder(RecyclerView.java:7065)
+    androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(RecyclerView.java:7107)
+    androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(RecyclerView.java:6012)
+    androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6279)
+    androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6118)
+    androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6114)
+    androidx.recyclerview.widget.LayoutState.next(LayoutState.java:98)
+    androidx.recyclerview.widget.StaggeredGridLayoutManager.fill(StaggeredGridLayoutManager.java:1607)
+    androidx.recyclerview.widget.StaggeredGridLayoutManager.onLayoutChildren(StaggeredGridLayoutManager.java:683)
+    androidx.recyclerview.widget.StaggeredGridLayoutManager.onLayoutChildren(StaggeredGridLayoutManager.java:605)
+    androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4134)
+    androidx.recyclerview.widget.RecyclerView.onMeasure(RecyclerView.java:3540)
+    android.view.View.measure(View.java:25953)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7055)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25953)
+    androidx.core.widget.NestedScrollView.measureChildWithMargins(NestedScrollView.java:1695)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.core.widget.NestedScrollView.onMeasure(NestedScrollView.java:604)
+    android.view.View.measure(View.java:25953)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7055)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25953)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7055)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25953)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7055)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25953)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7055)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:25953)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7055)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25953)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7055)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:25953)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7055)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25953)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7055)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:761)
+    android.view.View.measure(View.java:25953)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3780)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:2506)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2791)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2225)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8990)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1104)
+    android.view.Choreographer.doCallbacks(Choreographer.java:903)
+    android.view.Choreographer.doFrame(Choreographer.java:822)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1089)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:201)
+    android.os.Looper.loop(Looper.java:288)
+    android.app.ActivityThread.main(ActivityThread.java:7880)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:568)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-23 16:09:16
+User id: 9247  Mobile Model: Vivo I2011  Report: java.lang.SecurityException: my location requires permission ACCESS_FINE_LOCATION or ACCESS_COARSE_LOCATION
+
+--------- Stack trace ---------
+
+    com.google.maps.api.android.lib6.impl.bk.J(:com.google.android.gms.dynamite_mapsdynamite@225014044@22.50.14 (190400-0):10)
+    com.google.android.gms.maps.internal.i.ba(:com.google.android.gms.dynamite_mapsdynamite@225014044@22.50.14 (190400-0):172)
+    fd.onTransact(:com.google.android.gms.dynamite_mapsdynamite@225014044@22.50.14 (190400-0):4)
+    android.os.Binder.transact(Binder.java:1064)
+    com.google.android.gms.internal.maps.zza.zzc(com.google.android.gms:play-services-maps@@18.0.0:2)
+    com.google.android.gms.maps.internal.zzg.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:3)
+    com.google.android.gms.maps.GoogleMap.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.shrewd.vegroute.locationpick.LocationGetActivity.onMapReady(LocationGetActivity.java:346)
+    com.google.android.gms.maps.zzac.zzb(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.google.android.gms.maps.internal.zzaq.zza(com.google.android.gms:play-services-maps@@18.0.0:5)
+    com.google.android.gms.internal.maps.zzb.onTransact(com.google.android.gms:play-services-maps@@18.0.0:3)
+    android.os.Binder.transact(Binder.java:1064)
+    fc.c(:com.google.android.gms.dynamite_mapsdynamite@225014044@22.50.14 (190400-0):2)
+    com.google.maps.api.android.lib6.impl.bg.run(:com.google.android.gms.dynamite_mapsdynamite@225014044@22.50.14 (190400-0):1)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:233)
+    android.os.Looper.loop(Looper.java:334)
+    android.app.ActivityThread.main(ActivityThread.java:8278)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:582)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1065)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-27 15:39:20
+User id: 9247  Mobile Model: Vivo I2011  Report: java.lang.IllegalStateException: Fragment HomeFragment{a142566} (06d91de9-e86b-4b2b-908e-6405dcbc0ee6) not attached to an activity.
+
+--------- Stack trace ---------
+
+    androidx.fragment.app.Fragment.requireActivity(Fragment.java:928)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.getHome(HomeFragment.java:545)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.access$700(HomeFragment.java:136)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment$20.run(HomeFragment.java:1128)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:233)
+    android.os.Looper.loop(Looper.java:334)
+    android.app.ActivityThread.main(ActivityThread.java:8278)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:582)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1065)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-27 15:48:27
+User id: 8697  Mobile Model: Vivo V2022  Report: java.lang.IllegalStateException: Fragment HomeFragment{39928a4} (f0cf7cd7-b900-4643-ae2e-59fd485bdc8d) not attached to an activity.
+
+--------- Stack trace ---------
+
+    androidx.fragment.app.Fragment.requireActivity(Fragment.java:928)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.getHome(HomeFragment.java:545)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.access$700(HomeFragment.java:136)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment$20.run(HomeFragment.java:1128)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:257)
+    android.app.ActivityThread.main(ActivityThread.java:8132)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:626)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1015)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-01-28 10:21:27
+User id: 9268  Mobile Model: Samsung SM-M307F  Report: java.lang.SecurityException: my location requires permission ACCESS_FINE_LOCATION or ACCESS_COARSE_LOCATION
+
+--------- Stack trace ---------
+
+    com.google.maps.api.android.lib6.impl.bk.J(:com.google.android.gms.dynamite_mapsdynamite@230313037@23.03.13 (150400-0):10)
+    com.google.android.gms.maps.internal.i.bb(:com.google.android.gms.dynamite_mapsdynamite@230313037@23.03.13 (150400-0):175)
+    fg.onTransact(:com.google.android.gms.dynamite_mapsdynamite@230313037@23.03.13 (150400-0):4)
+    android.os.Binder.transact(Binder.java:1079)
+    com.google.android.gms.internal.maps.zza.zzc(com.google.android.gms:play-services-maps@@18.0.0:2)
+    com.google.android.gms.maps.internal.zzg.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:3)
+    com.google.android.gms.maps.GoogleMap.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.shrewd.vegroute.locationpick.LocationGetActivity.onMapReady(LocationGetActivity.java:346)
+    com.google.android.gms.maps.zzac.zzb(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.google.android.gms.maps.internal.zzaq.zza(com.google.android.gms:play-services-maps@@18.0.0:5)
+    com.google.android.gms.internal.maps.zzb.onTransact(com.google.android.gms:play-services-maps@@18.0.0:3)
+    android.os.Binder.transact(Binder.java:1079)
+    ff.c(:com.google.android.gms.dynamite_mapsdynamite@230313037@23.03.13 (150400-0):2)
+    com.google.maps.api.android.lib6.impl.bg.run(:com.google.android.gms.dynamite_mapsdynamite@230313037@23.03.13 (150400-0):1)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:246)
+    android.app.ActivityThread.main(ActivityThread.java:8653)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1130)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-02-03 08:50:16
+User id: 7942  Mobile Model: Samsung SM-A107F  Report: java.lang.SecurityException: my location requires permission ACCESS_FINE_LOCATION or ACCESS_COARSE_LOCATION
+
+--------- Stack trace ---------
+
+    com.google.maps.api.android.lib6.impl.bk.J(:com.google.android.gms.dynamite_mapsdynamite@230313033@23.03.13 (150300-0):10)
+    com.google.android.gms.maps.internal.i.bb(:com.google.android.gms.dynamite_mapsdynamite@230313033@23.03.13 (150300-0):175)
+    fg.onTransact(:com.google.android.gms.dynamite_mapsdynamite@230313033@23.03.13 (150300-0):4)
+    android.os.Binder.transact(Binder.java:1079)
+    com.google.android.gms.internal.maps.zza.zzc(com.google.android.gms:play-services-maps@@18.0.0:2)
+    com.google.android.gms.maps.internal.zzg.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:3)
+    com.google.android.gms.maps.GoogleMap.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.shrewd.vegroute.locationpick.LocationGetActivity.onMapReady(LocationGetActivity.java:346)
+    com.google.android.gms.maps.zzac.zzb(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.google.android.gms.maps.internal.zzaq.zza(com.google.android.gms:play-services-maps@@18.0.0:5)
+    com.google.android.gms.internal.maps.zzb.onTransact(com.google.android.gms:play-services-maps@@18.0.0:3)
+    android.os.Binder.transact(Binder.java:1079)
+    ff.c(:com.google.android.gms.dynamite_mapsdynamite@230313033@23.03.13 (150300-0):2)
+    com.google.maps.api.android.lib6.impl.bg.run(:com.google.android.gms.dynamite_mapsdynamite@230313033@23.03.13 (150300-0):1)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:246)
+    android.app.ActivityThread.main(ActivityThread.java:8653)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1130)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-02-05 08:36:53
+User id: 7942  Mobile Model: Samsung SM-A107F  Report: java.lang.SecurityException: my location requires permission ACCESS_FINE_LOCATION or ACCESS_COARSE_LOCATION
+
+--------- Stack trace ---------
+
+    com.google.maps.api.android.lib6.impl.bk.J(:com.google.android.gms.dynamite_mapsdynamite@230313033@23.03.13 (150300-0):10)
+    com.google.android.gms.maps.internal.i.bb(:com.google.android.gms.dynamite_mapsdynamite@230313033@23.03.13 (150300-0):175)
+    fg.onTransact(:com.google.android.gms.dynamite_mapsdynamite@230313033@23.03.13 (150300-0):4)
+    android.os.Binder.transact(Binder.java:1079)
+    com.google.android.gms.internal.maps.zza.zzc(com.google.android.gms:play-services-maps@@18.0.0:2)
+    com.google.android.gms.maps.internal.zzg.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:3)
+    com.google.android.gms.maps.GoogleMap.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.shrewd.vegroute.locationpick.LocationGetActivity.onMapReady(LocationGetActivity.java:346)
+    com.google.android.gms.maps.zzac.zzb(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.google.android.gms.maps.internal.zzaq.zza(com.google.android.gms:play-services-maps@@18.0.0:5)
+    com.google.android.gms.internal.maps.zzb.onTransact(com.google.android.gms:play-services-maps@@18.0.0:3)
+    android.os.Binder.transact(Binder.java:1079)
+    ff.c(:com.google.android.gms.dynamite_mapsdynamite@230313033@23.03.13 (150300-0):2)
+    com.google.maps.api.android.lib6.impl.bg.run(:com.google.android.gms.dynamite_mapsdynamite@230313033@23.03.13 (150300-0):1)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:246)
+    android.app.ActivityThread.main(ActivityThread.java:8653)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1130)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-02-05 08:37:17
+User id: 9253  Mobile Model: Samsung SM-F127G  Report: java.lang.SecurityException: my location requires permission ACCESS_FINE_LOCATION or ACCESS_COARSE_LOCATION
+
+--------- Stack trace ---------
+
+    com.google.maps.api.android.lib6.impl.bj.J(:com.google.android.gms.dynamite_mapsdynamite@221820081@22.18.20 (150400-0):10)
+    com.google.android.gms.maps.internal.i.aY(:com.google.android.gms.dynamite_mapsdynamite@221820081@22.18.20 (150400-0):164)
+    ej.onTransact(:com.google.android.gms.dynamite_mapsdynamite@221820081@22.18.20 (150400-0):4)
+    android.os.Binder.transact(Binder.java:1079)
+    com.google.android.gms.internal.maps.zza.zzc(com.google.android.gms:play-services-maps@@18.0.0:2)
+    com.google.android.gms.maps.internal.zzg.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:3)
+    com.google.android.gms.maps.GoogleMap.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.shrewd.vegroute.locationpick.LocationGetActivity.onMapReady(LocationGetActivity.java:346)
+    com.google.android.gms.maps.zzac.zzb(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.google.android.gms.maps.internal.zzaq.zza(com.google.android.gms:play-services-maps@@18.0.0:5)
+    com.google.android.gms.internal.maps.zzb.onTransact(com.google.android.gms:play-services-maps@@18.0.0:3)
+    android.os.Binder.transact(Binder.java:1079)
+    ei.ba(:com.google.android.gms.dynamite_mapsdynamite@221820081@22.18.20 (150400-0):2)
+    com.google.maps.api.android.lib6.impl.bf.run(:com.google.android.gms.dynamite_mapsdynamite@221820081@22.18.20 (150400-0):1)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:246)
+    android.app.ActivityThread.main(ActivityThread.java:8595)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1130)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-02-09 16:43:54
+User id: 9318  Mobile Model: Samsung SM-G955F  Report: java.lang.IllegalStateException: Fragment HomeFragment{34ff600} (39a60af4-99a4-4ce1-87e4-b00ffc115459) not attached to an activity.
+
+--------- Stack trace ---------
+
+    androidx.fragment.app.Fragment.requireActivity(Fragment.java:928)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.getHome(HomeFragment.java:545)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.access$700(HomeFragment.java:136)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment$20.run(HomeFragment.java:1128)
+    android.os.Handler.handleCallback(Handler.java:873)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:214)
+    android.app.ActivityThread.main(ActivityThread.java:7050)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:965)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-02-14 19:15:48
+User id: 8411  Mobile Model: Motorola moto g71 5G  Report: java.lang.IllegalStateException: Fragment HomeFragment{ce4db69} (74609166-d97d-4511-a0e7-d6912584bd76) not attached to an activity.
+
+--------- Stack trace ---------
+
+    androidx.fragment.app.Fragment.requireActivity(Fragment.java:928)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.getHome(HomeFragment.java:545)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.access$700(HomeFragment.java:136)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment$20.run(HomeFragment.java:1128)
+    android.os.Handler.handleCallback(Handler.java:978)
+    android.os.Handler.dispatchMessage(Handler.java:104)
+    android.os.Looper.loopOnce(Looper.java:238)
+    android.os.Looper.loop(Looper.java:357)
+    android.app.ActivityThread.main(ActivityThread.java:8090)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1026)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-02-16 19:53:29
+User id: 7917  Mobile Model: LENOVO Lenovo K53a48  Report: java.lang.OutOfMemoryError: Failed to allocate a 9437196 byte allocation with 6193208 free bytes and 5MB until OOM
+
+--------- Stack trace ---------
+
+    dalvik.system.VMRuntime.newNonMovableArray(Native Method)
+    android.graphics.BitmapFactory.nativeDecodeAsset(Native Method)
+    android.graphics.BitmapFactory.decodeStream(BitmapFactory.java:620)
+    android.graphics.BitmapFactory.decodeResourceStream(BitmapFactory.java:455)
+    android.graphics.drawable.Drawable.createFromResourceStream(Drawable.java:1152)
+    android.content.res.ResourcesImpl.loadDrawableForCookie(ResourcesImpl.java:729)
+    android.content.res.ResourcesImpl.loadDrawable(ResourcesImpl.java:580)
+    android.content.res.Resources.loadDrawable(Resources.java:854)
+    android.content.res.TypedArray.getDrawable(TypedArray.java:928)
+    android.widget.ImageView.<init>(ImageView.java:157)
+    android.widget.ImageView.<init>(ImageView.java:145)
+    androidx.appcompat.widget.AppCompatImageView.<init>(AppCompatImageView.java:78)
+    androidx.appcompat.widget.AppCompatImageView.<init>(AppCompatImageView.java:73)
+    androidx.appcompat.app.AppCompatViewInflater.createImageView(AppCompatViewInflater.java:206)
+    androidx.appcompat.app.AppCompatViewInflater.createView(AppCompatViewInflater.java:125)
+    androidx.appcompat.app.AppCompatDelegateImpl.createView(AppCompatDelegateImpl.java:1569)
+    androidx.appcompat.app.AppCompatDelegateImpl.onCreateView(AppCompatDelegateImpl.java:1620)
+    android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:769)
+    android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:727)
+    android.view.LayoutInflater.rInflate(LayoutInflater.java:858)
+    android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:821)
+    android.view.LayoutInflater.inflate(LayoutInflater.java:518)
+    android.view.LayoutInflater.inflate(LayoutInflater.java:426)
+    com.shrewd.vegroute.ui.CartValuePage.CartActivity$SlotAdapter.onCreateViewHolder(CartActivity.java:1769)
+    com.shrewd.vegroute.ui.CartValuePage.CartActivity$SlotAdapter.onCreateViewHolder(CartActivity.java:1756)
+    androidx.recyclerview.widget.RecyclerView$Adapter.createViewHolder(RecyclerView.java:7078)
+    androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6235)
+    androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6118)
+    androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6114)
+    androidx.recyclerview.widget.LinearLayoutManager$LayoutState.next(LinearLayoutManager.java:2303)
+    androidx.recyclerview.widget.LinearLayoutManager.layoutChunk(LinearLayoutManager.java:1627)
+    androidx.recyclerview.widget.LinearLayoutManager.fill(LinearLayoutManager.java:1587)
+    androidx.recyclerview.widget.LinearLayoutManager.onLayoutChildren(LinearLayoutManager.java:665)
+    androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4134)
+    androidx.recyclerview.widget.RecyclerView.onMeasure(RecyclerView.java:3540)
+    android.view.View.measure(View.java:19734)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6126)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1464)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:758)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:640)
+    android.view.View.measure(View.java:19734)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6126)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:185)
+    android.view.View.measure(View.java:19734)
+    com.google.android.material.bottomsheet.BottomSheetBehavior.onMeasureChild(BottomSheetBehavior.java:475)
+    androidx.coordinatorlayout.widget.CoordinatorLayout.onMeasure(CoordinatorLayout.java:831)
+    android.view.View.measure(View.java:19734)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6126)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:185)
+    android.view.View.measure(View.java:19734)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6126)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:185)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:19734)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6126)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:185)
+    android.view.View.measure(View.java:19734)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6126)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:185)
+    android.view.View.measure(View.java:19734)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6126)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1464)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:758)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:640)
+    android.view.View.measure(View.java:19734)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6126)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:185)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:687)
+    android.view.View.measure(View.java:19734)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:2303)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:1390)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1639)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1278)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6357)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:871)
+    android.view.Choreographer.doCallbacks(Choreographer.java:683)
+    android.view.Choreographer.doFrame(Choreographer.java:619)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:857)
+    android.os.Handler.handleCallback(Handler.java:751)
+    android.os.Handler.dispatchMessage(Handler.java:95)
+    android.os.Looper.loop(Looper.java:154)
+    android.app.ActivityThread.main(ActivityThread.java:6077)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:865)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:755)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-02-17 13:24:17
+User id: 471  Mobile Model: LGE LM-X440IM  Report: java.lang.IllegalStateException: Fragment HomeFragment{26b8688} (b4c94e57-151b-4236-9c17-f0e6272cf532) not attached to an activity.
+
+--------- Stack trace ---------
+
+    androidx.fragment.app.Fragment.requireActivity(Fragment.java:928)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.getHome(HomeFragment.java:545)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.access$700(HomeFragment.java:136)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment$20.run(HomeFragment.java:1128)
+    android.os.Handler.handleCallback(Handler.java:873)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:228)
+    android.app.ActivityThread.main(ActivityThread.java:6734)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:911)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-02-17 17:51:55
+User id: 9334  Mobile Model: OPPO CPH2421  Report: java.lang.IllegalStateException: Fragment already added: MaterialDatePicker{bb9fadb} (dfef974e-9f15-4b48-a79c-0b76b66d25b2 tag=Material_Range)
+
+--------- Stack trace ---------
+
+    androidx.fragment.app.FragmentStore.addFragment(FragmentStore.java:91)
+    androidx.fragment.app.FragmentManager.addFragment(FragmentManager.java:1713)
+    androidx.fragment.app.BackStackRecord.executeOps(BackStackRecord.java:415)
+    androidx.fragment.app.FragmentManager.executeOps(FragmentManager.java:2404)
+    androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:2162)
+    androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:2100)
+    androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:2002)
+    androidx.fragment.app.FragmentManager$5.run(FragmentManager.java:524)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:264)
+    android.app.ActivityThread.main(ActivityThread.java:8315)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1049)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-02-17 20:52:34
+User id: 8910  Mobile Model: Vivo 1814  Report: java.lang.IllegalStateException: Fragment already added: MaterialDatePicker{37060b4} (b2144bf5-389f-4a50-be09-a2a3263e1ef1 tag=Material_Range)
+
+--------- Stack trace ---------
+
+    androidx.fragment.app.FragmentStore.addFragment(FragmentStore.java:91)
+    androidx.fragment.app.FragmentManager.addFragment(FragmentManager.java:1713)
+    androidx.fragment.app.BackStackRecord.executeOps(BackStackRecord.java:415)
+    androidx.fragment.app.FragmentManager.executeOps(FragmentManager.java:2404)
+    androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:2162)
+    androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:2100)
+    androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:2002)
+    androidx.fragment.app.FragmentManager$5.run(FragmentManager.java:524)
+    android.os.Handler.handleCallback(Handler.java:790)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:192)
+    android.app.ActivityThread.main(ActivityThread.java:6759)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:556)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:875)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-02-19 09:11:30
+User id: 9102  Mobile Model: Motorola moto g(7)  Report: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.util.HashSet.contains(java.lang.Object)' on a null object reference
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.CartValuePage.CartActivity$ItemAdp.onBindViewHolder(CartActivity.java:1557)
+    com.shrewd.vegroute.ui.CartValuePage.CartActivity$ItemAdp.onBindViewHolder(CartActivity.java:1500)
+    androidx.recyclerview.widget.RecyclerView$Adapter.onBindViewHolder(RecyclerView.java:7065)
+    androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(RecyclerView.java:7107)
+    androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(RecyclerView.java:6012)
+    androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6279)
+    androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6118)
+    androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6114)
+    androidx.recyclerview.widget.LayoutState.next(LayoutState.java:98)
+    androidx.recyclerview.widget.StaggeredGridLayoutManager.fill(StaggeredGridLayoutManager.java:1607)
+    androidx.recyclerview.widget.StaggeredGridLayoutManager.onLayoutChildren(StaggeredGridLayoutManager.java:683)
+    androidx.recyclerview.widget.StaggeredGridLayoutManager.onLayoutChildren(StaggeredGridLayoutManager.java:605)
+    androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4134)
+    androidx.recyclerview.widget.RecyclerView.onMeasure(RecyclerView.java:3540)
+    android.view.View.measure(View.java:24601)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6831)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:24601)
+    androidx.core.widget.NestedScrollView.measureChildWithMargins(NestedScrollView.java:1695)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.core.widget.NestedScrollView.onMeasure(NestedScrollView.java:604)
+    android.view.View.measure(View.java:24601)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6831)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:24601)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6831)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:24601)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6831)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:24601)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6831)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:24601)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6831)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:24601)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6831)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:24601)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6831)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:24601)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6831)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:762)
+    android.view.View.measure(View.java:24601)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3091)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:1912)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2207)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1800)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:7751)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:967)
+    android.view.Choreographer.doCallbacks(Choreographer.java:791)
+    android.view.Choreographer.doFrame(Choreographer.java:726)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:952)
+    android.os.Handler.handleCallback(Handler.java:883)
+    android.os.Handler.dispatchMessage(Handler.java:100)
+    android.os.Looper.loop(Looper.java:241)
+    android.app.ActivityThread.main(ActivityThread.java:7604)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:941)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-02-20 12:40:54
+User id: 9356  Mobile Model: Samsung SM-A336E  Report: java.lang.SecurityException: my location requires permission ACCESS_FINE_LOCATION or ACCESS_COARSE_LOCATION
+
+--------- Stack trace ---------
+
+    com.google.maps.api.android.lib6.impl.bk.J(:com.google.android.gms.dynamite_mapsdynamite@230413044@23.04.13 (190400-0):10)
+    com.google.android.gms.maps.internal.i.bb(:com.google.android.gms.dynamite_mapsdynamite@230413044@23.04.13 (190400-0):175)
+    fg.onTransact(:com.google.android.gms.dynamite_mapsdynamite@230413044@23.04.13 (190400-0):4)
+    android.os.Binder.transact(Binder.java:1200)
+    com.google.android.gms.internal.maps.zza.zzc(com.google.android.gms:play-services-maps@@18.0.0:2)
+    com.google.android.gms.maps.internal.zzg.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:3)
+    com.google.android.gms.maps.GoogleMap.setMyLocationEnabled(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.shrewd.vegroute.locationpick.LocationGetActivity.onMapReady(LocationGetActivity.java:346)
+    com.google.android.gms.maps.zzac.zzb(com.google.android.gms:play-services-maps@@18.0.0:1)
+    com.google.android.gms.maps.internal.zzaq.zza(com.google.android.gms:play-services-maps@@18.0.0:5)
+    com.google.android.gms.internal.maps.zzb.onTransact(com.google.android.gms:play-services-maps@@18.0.0:3)
+    android.os.Binder.transact(Binder.java:1200)
+    ff.c(:com.google.android.gms.dynamite_mapsdynamite@230413044@23.04.13 (190400-0):2)
+    com.google.maps.api.android.lib6.impl.bg.run(:com.google.android.gms.dynamite_mapsdynamite@230413044@23.04.13 (190400-0):1)
+    android.os.Handler.handleCallback(Handler.java:942)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:226)
+    android.os.Looper.loop(Looper.java:313)
+    android.app.ActivityThread.main(ActivityThread.java:8741)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-02-20 19:03:45
+User id: 9358  Mobile Model: Samsung SM-A336E  Report: java.lang.RuntimeException: An error occurred while executing doInBackground()
+
+--------- Stack trace ---------
+
+    android.os.AsyncTask$4.done(AsyncTask.java:415)
+    java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:381)
+    java.util.concurrent.FutureTask.setException(FutureTask.java:250)
+    java.util.concurrent.FutureTask.run(FutureTask.java:269)
+    java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+    java.lang.Thread.run(Thread.java:1012)
+-------------------------------
+
+--------- Cause ---------
+
+java.lang.NullPointerException: Attempt to invoke virtual method 'void android.os.Bundle.putBoolean(java.lang.String, boolean)' on a null object reference
+
+    com.shrewd.vegroute.ui.AddressActivity$GetAddressFromLatLng.doInBackground(AddressActivity.java:475)
+    com.shrewd.vegroute.ui.AddressActivity$GetAddressFromLatLng.doInBackground(AddressActivity.java:429)
+    android.os.AsyncTask$3.call(AsyncTask.java:394)
+    java.util.concurrent.FutureTask.run(FutureTask.java:264)
+    java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+    java.lang.Thread.run(Thread.java:1012)
+-------------------------------
+
+ Date: 2023-02-20 19:57:51
+User id: 9363  Mobile Model: Realme RMX3171  Report: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.util.HashSet.contains(java.lang.Object)' on a null object reference
+
+--------- Stack trace ---------
+
+    com.shrewd.vegroute.ui.CartValuePage.CartActivity$ItemAdp.onBindViewHolder(CartActivity.java:1557)
+    com.shrewd.vegroute.ui.CartValuePage.CartActivity$ItemAdp.onBindViewHolder(CartActivity.java:1500)
+    androidx.recyclerview.widget.RecyclerView$Adapter.onBindViewHolder(RecyclerView.java:7065)
+    androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(RecyclerView.java:7107)
+    androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(RecyclerView.java:6012)
+    androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6279)
+    androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6118)
+    androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6114)
+    androidx.recyclerview.widget.LayoutState.next(LayoutState.java:98)
+    androidx.recyclerview.widget.StaggeredGridLayoutManager.fill(StaggeredGridLayoutManager.java:1607)
+    androidx.recyclerview.widget.StaggeredGridLayoutManager.onLayoutChildren(StaggeredGridLayoutManager.java:683)
+    androidx.recyclerview.widget.StaggeredGridLayoutManager.onLayoutChildren(StaggeredGridLayoutManager.java:605)
+    androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4134)
+    androidx.recyclerview.widget.RecyclerView.onMeasure(RecyclerView.java:3540)
+    android.view.View.measure(View.java:25969)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7112)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25969)
+    androidx.core.widget.NestedScrollView.measureChildWithMargins(NestedScrollView.java:1695)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.core.widget.NestedScrollView.onMeasure(NestedScrollView.java:604)
+    android.view.View.measure(View.java:25969)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7112)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25969)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7112)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25969)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7112)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25969)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7112)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)
+    android.view.View.measure(View.java:25969)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7112)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25969)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7112)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    android.view.View.measure(View.java:25969)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7112)
+    android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1552)
+    android.widget.LinearLayout.measureVertical(LinearLayout.java:842)
+    android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+    android.view.View.measure(View.java:25969)
+    android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7112)
+    android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+    com.android.internal.policy.DecorView.onMeasure(DecorView.java:834)
+    android.view.View.measure(View.java:25969)
+    android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:3905)
+    android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:2620)
+    android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2887)
+    android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2340)
+    android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:9057)
+    android.view.Choreographer$CallbackRecord.run(Choreographer.java:1040)
+    android.view.Choreographer.doCallbacks(Choreographer.java:864)
+    android.view.Choreographer.doFrame(Choreographer.java:791)
+    android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1025)
+    android.os.Handler.handleCallback(Handler.java:938)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loop(Looper.java:255)
+    android.app.ActivityThread.main(ActivityThread.java:8212)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1049)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-02-21 12:45:40
+User id: 9374  Mobile Model: Vivo 1938  Report: java.lang.IllegalStateException: Fragment already added: MaterialDatePicker{12f9ef7} (990f7e33-de6c-4232-8ea5-b08a36b52359 tag=Material_Range)
+
+--------- Stack trace ---------
+
+    androidx.fragment.app.FragmentStore.addFragment(FragmentStore.java:91)
+    androidx.fragment.app.FragmentManager.addFragment(FragmentManager.java:1713)
+    androidx.fragment.app.BackStackRecord.executeOps(BackStackRecord.java:415)
+    androidx.fragment.app.FragmentManager.executeOps(FragmentManager.java:2404)
+    androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:2162)
+    androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:2100)
+    androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:2002)
+    androidx.fragment.app.FragmentManager$5.run(FragmentManager.java:524)
+    android.os.Handler.handleCallback(Handler.java:883)
+    android.os.Handler.dispatchMessage(Handler.java:100)
+    android.os.Looper.loop(Looper.java:230)
+    android.app.ActivityThread.main(ActivityThread.java:7822)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:526)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1034)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-02-22 20:09:26
+User id: 8752  Mobile Model: Samsung SM-S906E  Report: java.lang.IllegalStateException: Fragment HomeFragment{420c871} (a1e25f6c-07b2-45e6-9839-e0404178e8a9) not attached to an activity.
+
+--------- Stack trace ---------
+
+    androidx.fragment.app.Fragment.requireActivity(Fragment.java:928)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.getHome(HomeFragment.java:545)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment.access$700(HomeFragment.java:136)
+    com.shrewd.vegroute.fragment.HOme.HomeFragment$20.run(HomeFragment.java:1128)
+    android.os.Handler.handleCallback(Handler.java:942)
+    android.os.Handler.dispatchMessage(Handler.java:99)
+    android.os.Looper.loopOnce(Looper.java:226)
+    android.os.Looper.loop(Looper.java:313)
+    android.app.ActivityThread.main(ActivityThread.java:8757)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
+ Date: 2023-02-25 17:14:28
